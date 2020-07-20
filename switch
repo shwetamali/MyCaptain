@@ -1,0 +1,24 @@
+import java.lang.*;
+import java.util.*;
+public class switch
+{
+    public static void main(String[] args)
+    {
+        int ch;
+        Scanner sc= new Scanner(System.in);
+        System.out.println("1.Hey \n 2.Hello \n 3.Thanks\n");
+        System.out.println("Enter your choics:");
+        ch=sc.nextInt();
+        switch(ch)
+        {
+            case 1:System.out.println("We are in case 1,Hey");
+                    break;
+            case 2:System.out.println("We are in case 2,Hello");
+                    break;
+            case 3:System.out.println("We are in case 3,Thanks");
+                    break;
+
+        }
+
+    }
+}
